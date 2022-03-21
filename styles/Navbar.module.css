@@ -11,9 +11,33 @@
 
 .item {
   flex: 1;
+  display: flex;
+  align-items: center;
 }
 
 .item:nth-child(2) {
   flex: 3;
   background-color: aquamarine;
+}
+
+.callButton {
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+}
+
+.texts {
+  margin-left: 20px;
+  color: white;
+}
+
+.text:first-child {
+  font-size: 12px;
+  font-weight: 500;
+}
+.text:last-child {
+  font-size: 20px;
+  font-weight: bold;
 }

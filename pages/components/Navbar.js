@@ -8,7 +8,7 @@ export const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
-          <AiOutlinePhone color="orange" size="32px" />
+          <AiOutlinePhone color="orange" size="32" />
         </div>
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW</div>
